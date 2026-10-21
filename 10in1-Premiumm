@@ -74,8 +74,5 @@ deleteHeader = type=http-request, pattern=^https://api.revenuecat.com/.+/(receip
 Locket Firebase Remote Config
 locket_rc = type=http-response, pattern=^https://firebaseremoteconfig.googleapis.com/v1/projects/locket-4252a/.+, script-path=https://raw.githubusercontent.com/DrackSumy/shardow.vip/refs/heads/main/premium3, requires-body=true, max-size=-1, timeout=6
 
-[Map Local]
-^https?://[\w-]+.googlevideo.com/initplayback.+&oad data-type=text data="" status-code=200
-
 [MITM]
 hostname = %APPEND%, .googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector.googlevideo.com, sub.store, api.revenuecat.com, api-mobile.soundcloud.com, api.picsart.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, spclient.wg.spotify.com, *spclient.spotify.com, firebaseremoteconfig.googleapis.com
