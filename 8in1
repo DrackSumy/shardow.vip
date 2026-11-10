@@ -56,4 +56,4 @@ Locket Firebase Remote Config
 locket_rc = type=http-response, pattern=^https://firebaseremoteconfig.googleapis.com/v1/projects/locket-4252a/.+, script-path=https://raw.githubusercontent.com/DrackSumy/shardow.vip/refs/heads/main/premium4, requires-body=true, max-size=-1, timeout=6
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, api.revenuecat.com, -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api-mobile.soundcloud.com,  api-sub.meitu.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, api.picsart.com, us-central1-alight-creative.cloudfunctions.net
+hostname = %APPEND% spclient.wg.spotify.com, api.revenuecat.com, -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api-mobile.soundcloud.com,  api-sub.meitu.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, api.picsart.com, us-central1-alight-creative.cloudfunctions.net, firebaseremoteconfig.googleapis.com
